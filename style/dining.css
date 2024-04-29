@@ -1,0 +1,66 @@
+
+.wed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+.wed-1, .wed-2 {
+    width: 45%;
+    padding: 2%;
+}
+
+.wed-1 h1 {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-bottom: 3%;
+}
+
+.wed-1 p {
+    line-height: 2.0;
+    word-spacing: 5px;
+}
+
+.wed-2 img {
+    width: 100%;
+    height: auto;
+    margin-left: 3%;
+}
+
+.wed1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    background-color: #1900ff55;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

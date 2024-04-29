@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+
+    <title>NYAIKA | HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/jpg" href="images/fav.jpg">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/navbar.css">
+
+    <style>
+        .navbar {
+	padding-top: 6%;
+	display: flex;
+	justify-content: center;
+    position: absolute;
+    z-index: 50;
+    width: 80%;
+    margin-left: 8%;
+}
+  
+  nav ul li a, .dropbtn {
+    z-index: 50;
+  }
+
+.nav-head {
+  z-index: -1;
+}
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="slideshow-container">
+
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="images/logo_with_name.png" alt="Logo">
+            </div>
+            <div class="nav-content">
+                <nav>
+                    <ul>
+                        <li><a href="home.html" class="active">Home</a></li>
+                        <li><a href="facilities.html">facilities</a></li>
+                        <li class="dropdown">
+                            <a href="our_rooms.html" class="dropbtn">rooms</a>
+                            <div class="dropdown-content">
+                                <a href="our_rooms.html#twin">deluxe twin</a>
+                                <a href="our_rooms.html#double">deluxe double</a>
+                                <a href="our_rooms.html#executive">executive suite</a>
+                                <a href="our_rooms.html#balcony">deluxe double</a>
+                                <a href="our_rooms.html#one">more rooms</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="dining.html" class="dropbtn">dining</a>
+                            <div class="dropdown-content">
+                                <a href="dining.html#ngeye">ngeye restaurant</a>
+                                <a href="dining.html#elgon">elgon restaurant</a>
+                                <a href="dining.html#palm">palm garden restaurant</a>
+                                <a href="dining.html#bakery">bakery</a>
+                                <a href="dining.html#cafe">social cafe</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="wedding.html" class="dropbtn">weddings</a>
+                            <div class="dropdown-content">
+                                <a href="wedding.html#nile">nile hall venue</a>
+                                <a href="wedding.html#kibs">kibs venue</a>
+                                <a href="wedding.html#swimming">swimming pool venue</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+    
+        </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/770x4221638536658suite.jpg" style="width:100%">
+      <div class="text">
+        <h5>most</h5> <br>
+        <h1>amazing</h1> <br>
+        <h5>view in town</h5> <br>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/770x4221638536658suite.jpg" style="width:100%">
+      <div class="text">
+        <h5>each room is</h5> <br>
+        <h1>unique</h1> <br>
+        <h5>just like you</h5> <br>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/770x4221638536658suite.jpg" style="width:100%">
+      <div class="text">
+        <h5>giving you</h5> <br>
+        <h1>professional</h1> <br>
+        <h5>services 24/7</h5> <br>
+      </div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+    </script>
+
+    <div class="home"></div>
+</body>
+</html>

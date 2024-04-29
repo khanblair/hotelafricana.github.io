@@ -1,0 +1,73 @@
+
+.fac, .fac-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5% 10% 3% 10%;
+    text-align: center;
+    line-height: 2.0;
+}
+
+.img1, .img2, .img3 {
+    width: 100%;
+    padding: 2%;
+}
+
+.img1 img, .img2 img, .img3 img {
+    width: 100%;
+    height: 33vh;
+    border-radius: 20px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 150%;
+}
+
+.tab table {
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.tab table tr td, .tab table tr th {
+    height: 7vh;
+}
+
+.tab table tr th {
+    border-bottom: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

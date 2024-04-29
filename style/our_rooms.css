@@ -1,0 +1,97 @@
+
+.room, .room1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+}
+
+.room1 {
+    background-color: #1900ff55;
+}
+
+.room-1 {
+    position: relative;
+}
+
+ .rel {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+    padding: 2%;
+    height: 50vh;
+    top: 12.5%;
+    left: -30%;
+    margin-left: 1%;
+    position: absolute;
+}
+
+.rel p {
+    margin-top: 3%;
+    line-height: 1.5;
+}
+
+.room-1 img {
+    width: 100%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.room-1 img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.room-1 button {
+    border: 2px solid blue;
+    background-color: #1900ff55;
+    width: 30%;
+    height: 6vh;
+    color: white;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+.room-1 button:hover {
+    background-color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.room1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    background-color: #1900ff55;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

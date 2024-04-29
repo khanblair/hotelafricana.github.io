@@ -1,0 +1,106 @@
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3%;
+}
+
+.cont-1, .cont-2 {
+    width: 46%;
+    padding: 2%;
+}
+
+.cont-1 h2 {
+    letter-spacing: 3px;
+    margin-bottom: 3%;
+    font-size: 180%;
+}
+
+.cont-1 p {
+    line-height: 2.0;
+    word-spacing: 5px;
+    margin-bottom: 2%;
+}
+
+.cont-1 form .form label {
+    letter-spacing: 2px;
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+.cont-1 form .form input {
+    width: 60%;
+    height: 6vh;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+.cont-1 form .form input::placeholder {
+    font-size: 120%;
+    padding-left: 2%;
+}
+
+.cont-1 form .form input:focus {
+    box-shadow: 0 2px 10px blue;
+    padding-left: 2%;
+    font-size: 100%;
+}
+
+.cont-1 form .form input[type="submit"] {
+    background-color: #1900ff55;
+    border: 2px solid blue;
+    margin-top: 3%;
+    color: white;
+    font-size: 120%;
+    width: 20%;
+}
+
+.cont-1 form .form input[type="submit"]:hover {
+    background-color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cont-2 {
+    box-shadow: 0 4px 15px blue;
+}
+
+.cont-2 img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.cont-2 img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
